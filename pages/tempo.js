@@ -27,7 +27,8 @@ export function getStaticProps(){
     return{
         props:{
             stringTempoEstatico
-        }
+        },
+        revalidate: 1
     }
 }
 
