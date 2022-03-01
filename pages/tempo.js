@@ -1,4 +1,4 @@
-import Link from 'node/link';
+import  Link  from 'next/link';
 
 function Tempo(){
     const tempoDinamico = new Date();
