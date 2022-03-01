@@ -1,9 +1,22 @@
 import {useState} from 'react';
+import  Link  from 'next/link';
+
 function Home(){
     return (<div>
+
+        <h1>Home</h1>
         <h1>Contador React</h1>
         <Contador />
-
+        <div>
+            <Link href="/contato">
+                <a>Contato</a>
+            </Link>
+        </div>
+        <div>
+            <Link href="/tempo">
+                <a>Contato</a>
+            </Link>
+        </div>
         </div>)
 }
 
