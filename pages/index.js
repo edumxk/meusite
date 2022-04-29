@@ -8,7 +8,7 @@ function Home(){
         <h1>Enfermeira Julia Cavalcante</h1>
        
             <div>
-                <Link href="/contato">
+                <Link href="/novo">
                     <a>Nova Evolução</a>
                 </Link>
             </div>
