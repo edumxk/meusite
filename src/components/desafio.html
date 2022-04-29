@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html id="pagina" style="background-color: white;"> 
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        </head>
+        <body>
+            <header>
+                <h2 style="text-transform:uppercase;">Classificação das cores</h2>
+            </header>
+            <ul>
+                <li>
+                    <h3>Cores Primárias</h3>
+                    <ol>
+                        <li>Vermelho</li>
+                        <li>Azul</li>
+                        <li>Amarelo</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Cores Secundárias</h3>
+                    <ol>
+                        <li>Verde</li>
+                        <li>Laranja</li>
+                        <li>Roxo</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Cores Terceárias</h3>
+                    <ol>
+                        <li>Laranja</li>
+                        <li>Oliva</li>
+                        <li>Turquesa</li>
+                        <li>Celeste</li>
+                        <li>Violeta</li>
+                        <li>Rosa</li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="div_botao">
+                <label for="botao">Clique para mudar a cor da tela</label>
+                <button onClick="mudarCor()" id="botao">Botão</button>
+            </div>
+        </body>
+        <script>
+            function mudarCor(){
+                let pagina = document.getElementById("pagina");
+             
+                if(pagina.style.backgroundColor=='white')
+                    pagina.style.cssText = 'color: white; background-color: blue;';
+                else
+                    pagina.style.cssText = 'color: black; background-color: white;';
+            }
+        </script>
+    </html>
+</DOCTYPE>

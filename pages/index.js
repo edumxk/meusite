@@ -4,17 +4,17 @@ import  Link  from 'next/link';
 function Home(){
     return (
     <div>
-        <h1>Home</h1>
-        <h1>Contador React</h1>
-        <Contador/>
+        <h1>Formulário de Evolução</h1>
+        <h1>Enfermeira Julia Cavalcante</h1>
+       
             <div>
                 <Link href="/contato">
-                    <a>Contato</a>
+                    <a>Nova Evolução</a>
                 </Link>
             </div>
             <div>
                 <Link href="/tempo">
-                    <a>Tempo</a>
+                    <a>Histórico</a>
                 </Link>
             </div>
         </div>)

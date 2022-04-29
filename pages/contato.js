@@ -1,14 +1,11 @@
 import  Link  from 'next/link';
+//import '../src/css/reset.css'
+//import '../src/css/contato.css'
+//import '../src/css/sidebar.css'
+
 function Contato(){
     return (
-        <body>
-            <div>
-                <h1>Página Contato</h1>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-            </div>
-        </body>
+        <div>teste</div>
     )
 }
 export default Contato
